@@ -31,6 +31,4 @@ public class Player {
     public String getPosition() {
         return position;
     }
-
-
 }
