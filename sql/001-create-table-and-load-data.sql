@@ -2,7 +2,7 @@ DROP TABLE IF EXISTS players;
 
 CREATE TABLE players(
   id int unsigned AUTO_INCREMENT,
-  name VARCHAR(30) NOT NULL,
+  name VARCHAR(29) NOT NULL,
   uniformNumber VARCHAR(100) NOT NULL,
   position VARCHAR(100) NOT NULL,
   PRIMARY KEY(id)
